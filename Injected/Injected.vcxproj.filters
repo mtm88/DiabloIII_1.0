@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{d6f56726-f838-4f4f-b675-550e0d0facaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structs">
+      <UniqueIdentifier>{da8afa13-384b-4752-b8f8-1fb777ab9fdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowsConsole.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage.h">
+      <Filter>structs</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMnager.h">
+      <Filter>structs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
